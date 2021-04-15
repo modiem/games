@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+.score-board {
+    display : flex;
+    align-content: space-between;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+#time-left {
+    color: #a91b0d;
+}
+
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid rgba(68, 67, 67, 0.411) 1px;
+    background-image: url("images/hole.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mole {
+	background-image: url("images/mouse.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
