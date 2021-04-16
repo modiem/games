@@ -11,6 +11,8 @@ Memory Games, also known as matching games are games that require players to mat
 # Credits
 This project uses Open Source components. You can find the source code of their open source projects along with license information below.  I acknowledge and are grateful to them for their contributions to open source.
 
-Project: Ania Kubow https://github.com/kubowania/memory-game
-Copyright (c) 2020 Ania Kubow
-[MIT Licence](https://opensource.org/licenses/MIT)
+> Project: Ania Kubow https://github.com/kubowania/memory-game
+> 
+> Copyright (c) 2020 Ania Kubow
+> 
+> [MIT Licence](https://opensource.org/licenses/MIT)
