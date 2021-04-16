@@ -1,3 +1,9 @@
+/*
+Copyright (c) 2020 Ania Kubow
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
 document.addEventListener("DOMContentLoaded", () => {
     const grid = document.querySelector(".grid")
     const startBtn = document.querySelector("button")
@@ -42,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function startGame() {
         //remove current class
+        clearInterval(interval)
         score = 0
         direction = 1
         intervalTime = 1000
@@ -107,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function randomApple() {
         squares[appleIndex].classList.remove('apple')
         do {
-            appleIndex = Math.floor(Math.random() * 100)
+            appleIndex = Math.floor(Math.random() * squares.length)
         } while (currentSnake.includes(appleIndex))
 
         squares[appleIndex] = document.getElementById(appleIndex) 
@@ -115,6 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function control(e) {
+
         if (e.keyCode === 32) {
             startGame()
           } else if(e.keyCode === 39 && direction != -1) {

@@ -9,3 +9,10 @@ The objective of the game is to be the first to form a horizontal, vertical, or 
 - [ ] Algorithms of winning
 - [ ] buttons styling
 - [ ] Animation: checker dropping down
+
+# Credits
+This project uses Open Source components. You can find the source code of their open source projects along with license information below.  I acknowledge and are grateful to them for their contributions to open source.
+
+Project: Ania Kubow https://github.com/kubowania/connect-four
+Copyright (c) 2020 Ania Kubow
+[MIT Licence](https://opensource.org/licenses/MIT)
